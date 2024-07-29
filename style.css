@@ -1,0 +1,101 @@
+body {
+  background-color: rgb(90, 90, 90);
+  font-family: "Montserrat", sans-serif;
+  color: #360266;
+}
+
+h1 {
+  font-size: 30px;
+  color: #7a29c7;
+}
+
+p {
+  line-height: 1.5;
+  text-align: justify;
+  font-size: 15px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  opacity: 0.4;
+}
+
+h2 {
+  color: #a660d4;
+  font-size: 16px;
+  margin: 30px;
+}
+
+h3 {
+  color: #a660d4;
+  font-size: 18px;
+  margin: 30px 30px 0px 30px;
+}
+
+div {
+  background-color: white;
+  width: 500px;
+  padding: 40px;
+  margin: 20px auto;
+  box-shadow: 0px 5px 5px rgba(31, 1, 39, 0.1);
+  border-radius: 5px;
+  text-align: center;
+}
+
+#img {
+  border-radius: 4px;
+}
+
+#btn {
+  background-color: rgb(211, 250, 250);
+  color: rgb(92, 35, 105);
+  padding: 15px 20px;
+  margin-top: 10px;
+  display: inline-block;
+  border-radius: 4px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#btn:hover {
+  background-color: rgba(107,114,255, 0.7);
+}
+
+.list {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list li {
+  display: inline;
+}
+
+.list li i {
+  font-size: 30px;
+  color: rgb(69, 5, 85);
+  margin: 10px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+div {
+    width: 500px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  div {
+    width: 400px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+div {
+    width: 300px;
+  }
+}
